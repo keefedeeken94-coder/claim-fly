@@ -1,0 +1,15 @@
+name: ClaimFly
+version: 1.0
+main: ClaimFly
+api-version: 1.21
+depend: [GriefPrevention]
+
+commands:
+  claimfly:
+    description: Toggle flight in claims
+    usage: /claimfly
+
+permissions:
+  claimfly.use:
+    description: Allows player to use /claimfly
+    default: false
